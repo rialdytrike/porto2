@@ -13,7 +13,7 @@ const CardPortofolio = ({image,alt,description}) => {
     <div className=" h-36 w-36 bg-latar ml-2">
     <img src={image} className="rounded-lg border-2 border-hitam" alt={alt} onClick={toggleModal} />
           {showModal && (
-                      <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+                      <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex justify-center items-center">
                       <div className="bg-latar p-4 rounded-lg max-w-[44rem] mx-auto">
                         <img src={image} className="rounded-lg max-w-full h-auto" alt={alt} />
                         <button onClick={toggleModal} className="btn btn-sm  mt-2">Close</button>

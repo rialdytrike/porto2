@@ -4,7 +4,7 @@ import Link from "next/link";
 const MainContent = () => {
   return (
     <>
-      <div className="flex flex-col basis-1/3">
+      <div className="flex flex-col basis-1/3 justify-evenly">
         <div className="card border border-r-4 border-b-4 border-hitam h-44 ml-2 mt-2">
         <div className="text text-md font-semibold ml-2 mt-2">Education</div>
         <ul className="text-sm mx-2">
@@ -19,7 +19,7 @@ const MainContent = () => {
             <li>English TOEIC Certification (800)</li>
           </ul>
         </div>
-        <div className="card border border-r-4 border-b-4 border-hitam grow max-h-[25rem] ml-2 my-2 bg-[url('/img/bg-card2.png')] bg-cover overflow-y-scroll">
+        <div className="card border border-r-4 border-b-4 border-hitam  grow ml-2 my-2 bg-[url('/img/bg-card2.png')] bg-cover overflow-y-scroll">
           <div className="text text-md font-semibold ml-2 mt-2">Skills</div>
           <ul className="text-sm mx-2">
             <li>Android Java Mobile Programming</li>
@@ -76,7 +76,8 @@ V2Ray, OpenVPN, SSH, Shadow Sock </li>
        
           </ul>
         </div>
-        <div className="card border border-r-4 border-b-4 border-hitam max-h-40  mt-2 mb-2 overflow-y-scroll">
+        {/* <div className="card border border-r-4 border-b-4 border-hitam max-h-40  mt-2 mb-2 overflow-y-scroll"> */}
+        <div className="card border border-r-4 border-b-4 border-hitam grow  mt-2 mb-2 overflow-y-scroll">
         <div className="text text-md font-semibold ml-2 mt-2">Business Experience</div>
         <ul className="text-sm mx-2">
             <li>Created an Anonymous Social Media App on Android</li>
@@ -90,13 +91,14 @@ V2Ray, OpenVPN, SSH, Shadow Sock </li>
         </div>
       </div>
       <div className="flex flex-col basis-1/3">
-        <div className="card border border-r-4 border-b-4 border-hitam grow max-h-[37rem] mr-2 my-2 py-2 bg-[url('/img/bg-card.png')] bg-cover ">
+        {/* <div className="card border border-r-4 border-b-4 border-hitam grow max-h-[37rem] mr-2 my-2 py-2 bg-[url('/img/bg-card.png')] bg-cover "> */}
+        <div className="card border border-r-4 border-b-4 border-hitam grow  mr-2 my-2 py-2 bg-[url('/img/bg-card1.png')] bg-cover ">
         <div className="text text-hitam text-md font-semibold ml-2 flex flex-row justify-between ">
-        <div className="text text-hitam text-md font-semibold">
+        <div className="text text-white text-md font-semibold">
         Portofolio Projects
         </div>
         <Link href='/project'>
-        <div className="text text-hitam text-md font-semibold flex flex-row mr-2">
+        <div className="text text-white text-md font-semibold flex flex-row mr-2">
           
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />

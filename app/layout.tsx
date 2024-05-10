@@ -121,7 +121,7 @@ export default function RootLayout({
               </div>
             </div>
           </div>
-          <div className="flex flex-row border-2 card bg-latar  border-hitam basis-5/6 gap-5">
+          <div className="flex flex-row border-2 card bg-latar  border-hitam  basis-5/6 gap-5">
           {children}
           </div>
         </div>
