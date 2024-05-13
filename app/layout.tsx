@@ -151,7 +151,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <div className="bg-[url(/img/bg.png)]">
           <div className=" flex flex-row mx-2 mb-5">
-            <div className="rounded-lg bg-latar flex flex-row w-full">
+            <div className="rounded-lg bg-latar mt-2 flex flex-row w-full">
               <div className="flex flex-col ml-5 ">
                 <div className="text text-hitam font-bold text-lg">
                   TrikersDev Portofolio 
