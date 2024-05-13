@@ -57,7 +57,7 @@ const MainContent = () => {
             <li>IT Network Administrator Intern (2015)</li>
           </ul>
         </div>
-        <div className="card border border-r-4 border-b-4 border-hitam  max-h-72 mt-2 overflow-y-scroll">
+        <div className="card bg-latar border border-r-4 border-b-4 border-hitam  max-h-72 mt-2 overflow-y-scroll">
         <div className="text text-md font-semibold ml-2 mt-2">Project Experience</div>
         <ul className="text-sm mx-2">
           <li>Built a Bot for the Digital Goods Market (Seller Automation)</li>
@@ -92,9 +92,9 @@ V2Ray, OpenVPN, SSH, Shadow Sock </li>
       </div>
       <div className="flex flex-col basis-1/3">
         {/* <div className="card border border-r-4 border-b-4 border-hitam grow max-h-[37rem] mr-2 my-2 py-2 bg-[url('/img/bg-card.png')] bg-cover "> */}
-        <div className="card border border-r-4 border-b-4 border-hitam grow  mr-2 my-2 py-2 bg-[url('/img/bg-card1.png')] bg-cover ">
+        <div className="card border border-r-4 border-b-4 border-hitam grow  mr-2 my-2 py-2 bg-[url('/img/bg-card.png')] bg-cover ">
         <div className="text text-hitam text-md font-semibold ml-2 flex flex-row justify-between ">
-        <div className="text text-white text-md font-semibold">
+        <div className="text text-hitam text-md font-semibold">
         Portofolio Projects
         </div>
         {/* <Link href='/project'>
