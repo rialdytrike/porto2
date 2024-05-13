@@ -5,7 +5,7 @@ const MainContent = () => {
   return (
     <>
       <div className="flex flex-col basis-1/3 justify-evenly">
-        <div className="card border border-r-4 border-b-4 border-hitam h-44 ml-2 mt-2">
+        <div className="card bg-latar border border-r-4 border-b-4 border-hitam h-44 ml-2 mt-2">
         <div className="text text-md font-semibold ml-2 mt-2">Education</div>
         <ul className="text-sm mx-2">
           
@@ -49,7 +49,7 @@ const MainContent = () => {
         </div>
       </div>
       <div className="flex flex-col basis-1/3">
-        <div className="card border border-r-4 border-b-4 border-hitam basis-1/5  mt-2">
+        <div className="card bg-latar border border-r-4 border-b-4 border-hitam basis-1/5  mt-2">
         <div className="text text-md font-semibold ml-2 mt-2">Work Experience</div>
         <ul className="text-sm mx-2">
             <li>Business Owner [Running my own Apps] <br/> (2020 - Present)</li>
@@ -77,7 +77,7 @@ V2Ray, OpenVPN, SSH, Shadow Sock </li>
           </ul>
         </div>
         {/* <div className="card border border-r-4 border-b-4 border-hitam max-h-40  mt-2 mb-2 overflow-y-scroll"> */}
-        <div className="card border border-r-4 border-b-4 border-hitam grow  mt-2 mb-2 overflow-y-scroll">
+        <div className="card border bg-latar border-r-4 border-b-4 border-hitam grow  mt-2 mb-2 overflow-y-scroll">
         <div className="text text-md font-semibold ml-2 mt-2">Business Experience</div>
         <ul className="text-sm mx-2">
             <li>Created an Anonymous Social Media App on Android</li>
@@ -97,8 +97,8 @@ V2Ray, OpenVPN, SSH, Shadow Sock </li>
         <div className="text text-white text-md font-semibold">
         Portofolio Projects
         </div>
-        <Link href='/project'>
-        <div className="text text-white text-md font-semibold flex flex-row mr-2">
+        {/* <Link href='/project'>
+        <div className={`text text-white text-md font-semibold flex flex-row mr-2`}>
           
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
@@ -106,7 +106,7 @@ V2Ray, OpenVPN, SSH, Shadow Sock </li>
         More
           
         </div>
-        </Link>
+        </Link> */}
           </div>
       
         <CardPortofolio image={'/img/porto/guestbook-dapp.webp'} alt={'Guestbook DApp'} description={'A guestbook made using BSC Testnet Blockchain with Next.js as the frontend.'}/>
