@@ -59,7 +59,7 @@ export default function RootLayout({
                
                 <Link href='/project'>
                 <div className="text text-hitam font-semibold text-md ml-5 hover:underline">
-                  Project 🚀
+                  Projects 🚀
                 </div>
                 </Link>
              
