@@ -35,7 +35,7 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
         <div
-        className="bg-cover bg-no-repeat bg-center h-screen py-2"
+        className="bg-cover bg-no-repeat bg-center h-screen my-auto mx-auto py-2"
         style={{ backgroundImage: "url(/img/bg.png)" }}
       >
         <div className="flex flex-col  h-full">

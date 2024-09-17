@@ -109,10 +109,55 @@ V2Ray, OpenVPN, SSH, Shadow Sock </li>
         </Link> */}
           </div>
       
-        <CardPortofolio image={'/img/porto/guestbook-dapp.webp'} alt={'Guestbook DApp'} description={'A guestbook made using BSC Testnet Blockchain with Next.js as the frontend.'}/>
-        <CardPortofolio image={'/img/porto/buy-sell-game-acc.webp'} alt={'Platform for Buying and Selling Game Accounts'} description={'A Platform for Buying and Selling Game Accounts, made for the community and using escrow as payment method.'}/>
-        <CardPortofolio image={'/img/porto/game-topup.webp'} alt={'App for game topup'} description={'Android application that sell game topup cheaper than official google play topup'}/>
-         
+          <CardPortofolio image={'/img/porto/joytopup.webp'} alt={'Game Topup Website - Joytopup'}
+      description={'A Website to buy game topup with affordable price with mobile-first design using next.js'}
+      content={<><p>A Website to buy game topup with affordable price with mobile-first design using next.js</p>
+
+        <p>Technologies used:</p>
+        <ul>
+          <li>Next.js</li>
+          <li>JavaScript</li>
+          <li>Prisma ORM</li>
+          <li>Zustand state manager</li>
+          <li>MySQL</li>
+          <li>Vercel</li>
+          <li>Tailwind + DaisyUI</li>
+        </ul>
+        <p >Project Link: <a href='https://joytopup.com' target="_blank" className='text-blue-600'>Joytopup.com</a></p>
+        </>}
+      />
+          <CardPortofolio image={'/img/porto/aff-joytopup.webp'} alt={'Affiliate Joytopup'}
+      description={'A Website to earn money by sharing affiliate links of Joytopup created using next.js'}
+      content={<><p>A Website to buy game topup with affordable price with mobile-first design using next.js</p>
+
+        <p>Technologies used:</p>
+        <ul>
+          <li>Next.js</li>
+          <li>JavaScript</li>
+          <li>Prisma ORM</li>
+          <li>Zustand state manager</li>
+          <li>MySQL</li>
+          <li>Vercel</li>
+          <li>Tailwind + DaisyUI</li>
+        </ul>
+        <p >Project Link: <a href='https://aff.joytopup.com' target="_blank" className='text-blue-600'>aff.joytopup.com</a></p>
+        </>}
+      />
+      <CardPortofolio image={'/img/porto/guestbook-dapp.webp'} alt={'Guestbook DApp'} 
+     
+      description={'A guestbook made using BSC Testnet Blockchain with Next.js as the frontend.'}
+      content={<><p>This project, built using the Binance Smart Chain Testnet, demonstrates how blockchain can store user data and be implemented in interactive decentralized applications.</p>
+
+        <p>Technologies used:</p>
+        <ul>
+          <li>Next.js</li>
+          <li>JavaScript</li>
+          <li>Remix Ethereum IDE</li>
+          <li>RainbowKit Wallet Connect</li>
+          <li>BSC Testnet</li>
+        </ul>
+        </>}
+      />
         
         </div>
       </div>
