@@ -108,7 +108,22 @@ V2Ray, OpenVPN, SSH, Shadow Sock </li>
         </div>
         </Link> */}
           </div>
-      
+          <CardPortofolio image={'/img/porto/canimal-ico.webp'} alt={'Canimal ICO Project'} 
+     
+     description={'Canimal Token is an ICO (Initial Coin Offering) project built on the Binance Smart Chain testnet. '}
+     content={<><p>Canimal Token is an ICO (Initial Coin Offering) project built on the Binance Smart Chain testnet. This project demonstrates the integration of smart contracts with a modern React frontend, allowing users to purchase Canimal tokens using test BNB (tBNB).</p>
+
+       <p>Technologies used:</p>
+       <ul>
+         <li>Next.js</li>
+         <li>JavaScript</li>
+         <li>Remix Ethereum IDE</li>
+         <li>RainbowKit Wallet Connect</li>
+         <li>Solidity (for smart contracts)</li>
+         <li>BSC Testnet</li>
+       </ul>
+       </>}
+     />
           <CardPortofolio image={'/img/porto/joytopup.webp'} alt={'Game Topup Website - Joytopup'}
       description={'A Website to buy game topup with affordable price with mobile-first design using next.js'}
       content={<><p>A Website to buy game topup with affordable price with mobile-first design using next.js</p>
@@ -143,21 +158,7 @@ V2Ray, OpenVPN, SSH, Shadow Sock </li>
         <p >Project Link: <a href='https://aff.joytopup.com' target="_blank" className='text-blue-600'>aff.joytopup.com</a></p>
         </>}
       />
-      <CardPortofolio image={'/img/porto/guestbook-dapp.webp'} alt={'Guestbook DApp'} 
-     
-      description={'A guestbook made using BSC Testnet Blockchain with Next.js as the frontend.'}
-      content={<><p>This project, built using the Binance Smart Chain Testnet, demonstrates how blockchain can store user data and be implemented in interactive decentralized applications.</p>
-
-        <p>Technologies used:</p>
-        <ul>
-          <li>Next.js</li>
-          <li>JavaScript</li>
-          <li>Remix Ethereum IDE</li>
-          <li>RainbowKit Wallet Connect</li>
-          <li>BSC Testnet</li>
-        </ul>
-        </>}
-      />
+   
         
         </div>
       </div>

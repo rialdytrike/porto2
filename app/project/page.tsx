@@ -6,6 +6,22 @@ const Projects = () => {
     <div className='text-lg text-hitam font-bold mt-2 ml-2'>Portofolio Projects</div>
     <div className='text-sm text-hitam ml-2 mb-5 '>Some projects have not yet been registered, some also have Non-Disclosure Agreements, and many more projects are upcoming.</div>
     <div className='grid grid-cols-3 gap-4 overflow-y-scroll'>
+    <CardPortofolio image={'/img/porto/canimal-ico.webp'} alt={'Canimal ICO Project'} 
+     
+     description={'Canimal Token is an ICO (Initial Coin Offering) project built on the Binance Smart Chain testnet. '}
+     content={<><p>Canimal Token is an ICO (Initial Coin Offering) project built on the Binance Smart Chain testnet. This project demonstrates the integration of smart contracts with a modern React frontend, allowing users to purchase Canimal tokens using test BNB (tBNB).</p>
+
+       <p>Technologies used:</p>
+       <ul>
+         <li>Next.js</li>
+         <li>JavaScript</li>
+         <li>Remix Ethereum IDE</li>
+         <li>RainbowKit Wallet Connect</li>
+         <li>Solidity (for smart contracts)</li>
+         <li>BSC Testnet</li>
+       </ul>
+       </>}
+     />
       <CardPortofolio image={'/img/porto/joytopup.webp'} alt={'Game Topup Website - Joytopup'}
       description={'A Website to buy game topup with affordable price with mobile-first design using next.js'}
       content={<><p>A Website to buy game topup with affordable price with mobile-first design using next.js</p>

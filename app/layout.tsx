@@ -93,14 +93,14 @@ export default function RootLayout({
                     </div>
                 
                   <div className="flex flex-row gap-1 ">
-                  <div className="text text-sm  text-latar bg-tahiti border border-hitam p-1 rounded-lg ">
+                  <div className="text text-sm  text-black bg-tahiti border border-hitam p-1 rounded-lg ">
                    Mobile
                   </div>
                   <div className="text text-sm  text-latar bg-purple border border-hitam p-1 rounded-lg ">
                    Web
                   </div>
-                  <div className="text text-sm  text-latar bg-bubble-gum border border-hitam p-1 rounded-lg ">
-                   Cryptocurrency
+                  <div className="text text-sm  text-black bg-bubble-gum border border-hitam p-1 rounded-lg ">
+                   Crypto
                   </div>
                 
                   </div>
