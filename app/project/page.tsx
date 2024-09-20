@@ -20,6 +20,7 @@ const Projects = () => {
          <li>Solidity (for smart contracts)</li>
          <li>BSC Testnet</li>
        </ul>
+       <p >Project Link: <a href='https://canimal-ico.vercel.app/' target="_blank" className='text-blue-600'>canimal-ico.vercel.app</a></p>
        </>}
      />
       <CardPortofolio image={'/img/porto/joytopup.webp'} alt={'Game Topup Website - Joytopup'}
